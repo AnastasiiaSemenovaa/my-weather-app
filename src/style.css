@@ -63,3 +63,9 @@ i {
   color: pink;
   text-align: center;
 }
+.linkStyle {
+  color: violet;
+  font-weight: bold;
+  text-decoration-line: none;
+  padding-left: 600px;
+}
