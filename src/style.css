@@ -8,9 +8,11 @@ ul {
   font-family: "Lora", serif;
 }
 li {
-  text-align: left;
   list-style: none;
+  text-align: left;
+  margin-left: -80px;
 }
+
 .app {
   text-align: center;
   border: 2px solid grey;
@@ -45,8 +47,6 @@ li {
 h1 {
   text-decoration: underline;
   text-align: center;
-  margin-left: 40px;
-  font-family: "Lora", serif;
 }
 
 .days {
