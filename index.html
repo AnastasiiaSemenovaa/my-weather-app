@@ -13,12 +13,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
+   
     <script
       src="https://kit.fontawesome.com/a8900ef949.js"
       crossorigin="anonymous"
@@ -57,73 +52,26 @@
         <h1 id="place"></h1>
         <ul>
           <li id="date-now">Sunday, 28th of May</li>
-          <li>
+          <li> 
             <div id="temperature"></div>
-            <span class="symbolTemp"> °C</span>
+            <span class="units">
+            <a href="#" id="celsius-Temp"> °C</a> /
+         <a href="#" id="fahrenheit-Temp"> °F</a>
+            </span>
           </li>
           <li id="description"></li>
           <li>Humidity: <span id="humidity"> </span> %</li>
           <li>Wind: <span id="wind"></span> km/h</li>
         </ul>
-
-        <div class="row">
-          <div class="col-3">
-            9am ⛅
-            <div class="col">18°C</div>
-          </div>
-          <div class="col-3">
-            12pm ☀️
-            <div class="col">19°C</div>
-          </div>
-          <div class="col-3">
-            5pm ⛅
-            <div class="col">21°C</div>
-          </div>
-          <div class="col-3">
-            9pm ✨
-            <div class="col">17°C</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="days">
-      <div class="row">
-        <div class="col-3">
-          29.05
-          <div class="col">
-            <i class="fa-solid fa-sun"></i>
-          </div>
-          <div class="col">20°C</div>
-        </div>
-        <div class="col-3">
-          30.05
-          <div class="col">
-            <i class="fa-solid fa-cloud-sun-rain"></i>
-          </div>
-          <div class="col">23°C</div>
-        </div>
-        <div class="col-3">
-          31.05
-          <div class="col">
-            <i class="fa-solid fa-cloud-sun"></i>
-          </div>
-          <div class="col">23°C</div>
-        </div>
-        <div class="col-3">
-          01.06
-          <div class="col">
-            <i class="fa-solid fa-sun"></i>
-          </div>
-          <div class="col">26°C</div>
-        </div>
-      </div>
-    </div>
+      
+       
     <a
       href="https://github.com/AnastasiiaSemenovaa/my-weather-app"
       class="linkStyle"
+      target="blank"
     >
-      View the code created by Anastasiia Semenova
-    </a>
+      View the code 
+    </a> created by Anastasiia Semenova
     <script src="src/script.js"></script>
   </body>
 </html>
