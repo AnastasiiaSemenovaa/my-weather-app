@@ -49,17 +49,6 @@ h1 {
   text-align: center;
 }
 
-.days {
-  font-size: larger;
-  color: black;
-  font-weight: bold;
-  padding: 10px 70px;
-  margin-left: 30px;
-}
-i {
-  color: #fdd14f;
-  font-size: 50px;
-}
 #date-now {
   color: pink;
   text-align: center;
