@@ -13,7 +13,6 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-   
     <script
       src="https://kit.fontawesome.com/a8900ef949.js"
       crossorigin="anonymous"
@@ -41,7 +40,7 @@
             </div>
             <div class="col-3">
               <button
-                class="btn btn-success w-100"
+                class="btn btn-success shadow w-100"
                 id="current-location-button"
               >
                 Current 📌
@@ -52,29 +51,34 @@
         <h1 id="place"></h1>
         <ul>
           <li id="date-now">Sunday, 28th of May</li>
-          <div class="row"><div class="col-6"> <li> 
-             <div id="temperature"></div>
-            <span class="units">
-            <a href="#" id="celsius-Temp"> °C</a> /
-         <a href="#" id="fahrenheit-Temp"> °F</a>
-            </span>
-          </li>
-          <li id="description"></li>
-          <li>Humidity: <span id="humidity"> </span> %</li>
-          <li>Wind: <span id="wind"></span> km/h</li>
-        </div>
-       <div class="col-6">
-        <img src="#" id ="icon">
-        </img>
-        </div>
+          <div class="row">
+            <div class="col-6">
+              <li>
+                <div id="temperature"></div>
+                <span class="units">
+                  <a href="#" id="celsius-Temp"> °C</a> /
+                  <a href="#" id="fahrenheit-Temp"> °F</a>
+                </span>
+              </li>
+              <li id="description"></li>
+              <li>Humidity: <span id="humidity"> </span> %</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </div>
+            <div class="col-6">
+              <img src="#" id="icon" />
+            </div>
           </div>
-      </ul>    
-    <a
-      href="https://github.com/AnastasiiaSemenovaa/my-weather-app"
-      class="linkStyle"
-      target="blank">
-      View the code 
-    </a> created by Anastasiia Semenova
-    <script src="src/script.js"></script>
+        </ul>
+        <a
+          href="https://github.com/AnastasiiaSemenovaa/my-weather-app"
+          class="linkStyle"
+          target="blank"
+        >
+          View the code
+        </a>
+        created by Anastasiia Semenova
+        <script src="src/script.js"></script>
+      </div>
+    </div>
   </body>
 </html>

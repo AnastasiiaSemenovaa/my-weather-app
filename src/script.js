@@ -14,11 +14,11 @@ let hours = now.getHours();
 if (hours < 10) {
   hours = `0${hours}`;
 }
-let minutes = now.getUTCMinutes();
+let minutes = now.getMinutes();
 if (minutes < 10) {
-  hours = `0${minutes}`;
+  minutes = `0${minutes}`;
 }
-newTime.innerHTML = ` ${day} ${hours}: ${minutes}`;
+newTime.innerHTML = ` Your current time is: ${hours}: ${minutes} (${day}) `;
 
 function displayWeatherConditins(response) {
   document.querySelector("#place").innerHTML = response.data.name;
