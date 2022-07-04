@@ -23,9 +23,8 @@ newTime.innerHTML = ` Your current time is: ${hours}: ${minutes} (${day}) `;
 function displayWeatherConditins(response) {
   document.querySelector("#place").innerHTML = response.data.name;
   celsiusTemperature = response.data.main.temp;
-  let temperatureElement=document.querySelector("#temperature");
-  temperatureElement.innerHTML =
-    Math.round(celsiusTemperature);
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
@@ -62,15 +61,15 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
-let temperatureElement= document.querySelector("#temperature");
-let fahrenheitTemperature=(celsiusTemperature*9)/5+32;
-let temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+  temperatureElement = document.querySelector("#temperature");
+  fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
 function displayCelsiusTemperature(event) {
   event.preventDefault();
-let temperatureElement=document.querySelector("#temperature");
-let temperatureElement.innerHTML = Math.round(celsiusTemperature);
+  temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
 let celsiusTemperature = null;
