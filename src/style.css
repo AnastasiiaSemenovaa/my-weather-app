@@ -63,6 +63,8 @@ li {
 }
 .active {
   cursor: default;
+  text-decoration: none;
+  color: black;
 }
 .active :hover {
   text-decoration: none;
