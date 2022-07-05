@@ -22,8 +22,8 @@ newTime.innerHTML = ` Your current time is: ${hours}:${minutes} (${day}) `;
 
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
-  let forecastHTML = `<div class = "row>`;
-  let days = ["Thu", "Fri", "Sat", "Sun"];
+  let forecastHTML = `<div class = "row">`;
+  let days = [`Thu`, `Fri`, `Sat`, `Sun`];
   days.forEach(function (day) {
     forecastHTML =
       forecastHTML +
@@ -32,7 +32,7 @@ function displayForecast() {
 <div class="row">
 <div class="col-3">
 <div class = "weather-forecast-date">
-Thu </div>
+${day} </div>
   <img src="https://ssl.gstatic.com/onebox/weather/48/thunderstorms.png"
   alt="clear"
   width="42"/>
