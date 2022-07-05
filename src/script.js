@@ -20,6 +20,36 @@ if (minutes < 10) {
 }
 newTime.innerHTML = ` Your current time is: ${hours}:${minutes} (${day}) `;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class = "row>`;
+  let days = ["Thu", "Fri", "Sat", "Sun"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+<div class="weather-forecast">
+<div class="row">
+<div class="col-3">
+<div class = "weather-forecast-date">
+Thu </div>
+  <img src="https://ssl.gstatic.com/onebox/weather/48/thunderstorms.png"
+  alt="clear"
+  width="42"/>
+  <div class = "weather-forecast-temperatures">
+  <span class="weather-forecast-max">
+  18</span>
+  <span class="weather-forecast-min">
+  13</span>
+  </div>
+  </div>
+  </div>
+    `;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayWeatherConditins(response) {
   document.querySelector("#place").innerHTML = response.data.name;
   celsiusTemperature = response.data.main.temp;
@@ -89,3 +119,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("New York");
+displayForecast();
