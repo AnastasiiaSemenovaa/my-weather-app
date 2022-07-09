@@ -16,7 +16,7 @@ li {
 .app {
   text-align: center;
   border: 2px solid grey;
-  background-color: rgb(201, 242, 139);
+  background-color: rgb(208, 244, 157);
 }
 .row {
   color: #79d1c3;
@@ -68,4 +68,13 @@ li {
 }
 .active :hover {
   text-decoration: none;
+}
+.row {
+  color: #235784;
+}
+.weather-forecast-min {
+  opacity: 0.5;
+}
+section {
+  margin-left: 80px;
 }
