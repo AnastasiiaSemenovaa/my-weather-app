@@ -44,7 +44,10 @@ li {
   top: -30px;
   margin-top: 0;
 }
-
+.units:hover {
+  text-decoration: none;
+  color: black;
+}
 #date-now {
   color: rgb(254, 144, 162);
   text-align: center;
@@ -61,13 +64,14 @@ li {
 .btn btn-success w-100 {
   color: black;
 }
-.active {
+#celsius-link {
   cursor: default;
   text-decoration: none;
   color: black;
 }
-.active :hover {
+#celsius-link :hover {
   text-decoration: none;
+  color: black;
 }
 .row {
   color: #235784;
