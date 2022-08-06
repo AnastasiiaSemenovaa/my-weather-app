@@ -21,7 +21,7 @@ li {
   border-radius: 4px;
   background: #668ba4;
   font-family: "Rammetto One", cursive;
-  margin: 50px 10px;
+  margin: 20px 10px;
 }
 .row {
   color: white;
@@ -54,9 +54,7 @@ li {
 #icon {
   width: 200px;
 }
-.btn btn-success w-100 {
-  color: white;
-}
+
 #celsius-link {
   cursor: default;
   text-decoration: none;
@@ -71,4 +69,7 @@ li {
 }
 section {
   margin-left: auto;
+}
+.weather-forecast {
+  margin: 20px;
 }
