@@ -6,54 +6,47 @@ li {
   list-style: none;
   text-align: left;
   margin-left: -80px;
-  color: #40a8c4;
+  color: #feffdf;
 }
 #place {
   text-align: center;
-  background: #f5e1da;
-  color: #235784;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #dde0ab;
+  font-family: "Gravitas One", cursive;
 }
 .app {
   text-align: center;
-  border: 2px solid grey;
-  background-color: rgb(208, 244, 157);
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #668ba4;
+  font-family: "Rammetto One", cursive;
+  margin: 50px 10px;
 }
 .row {
-  color: #79d1c3;
+  color: white;
   text-align: center;
   padding: 30px 100px;
 }
 
 #temperature {
-  color: #f7aa00;
+  color: white;
   font-size: 50px;
   font-weight: bold;
-  margin-left: 0px;
+  margin-left: -5px;
   position: relative;
   top: 60px;
   margin-top: 1px;
   margin-bottom: 30px;
 }
-.units {
-  display: block;
-  color: #fec750;
-  font-size: 15px;
-  font-weight: bold;
-  margin-left: 70px;
-  position: relative;
-  top: -30px;
-  margin-top: 0;
-}
-.units:hover {
-  text-decoration: none;
-  color: black;
-}
+
 #date-now {
-  color: rgb(254, 144, 162);
+  color: #feffdf;
   text-align: center;
+  opacity: 50%;
 }
 .linkStyle {
-  color: violet;
+  color: rgb(251, 203, 251);
   font-weight: bold;
   text-decoration-line: none;
   margin: 30px auto;
@@ -62,20 +55,17 @@ li {
   width: 200px;
 }
 .btn btn-success w-100 {
-  color: black;
+  color: white;
 }
 #celsius-link {
   cursor: default;
   text-decoration: none;
-  color: black;
+  color: white;
+  position: relative;
+  top: -46px;
+  left: 90px;
 }
-#celsius-link :hover {
-  text-decoration: none;
-  color: black;
-}
-.row {
-  color: #235784;
-}
+
 .weather-forecast-min {
   opacity: 0.5;
 }
